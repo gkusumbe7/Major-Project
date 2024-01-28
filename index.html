@@ -4,99 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Major Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    html,body{
-        height: 100%;
-        width: 100%;
-    }
-
-    .main{
-        border: 1px solid black;
-        background-image:url("imageFolder/header-background.jpg");
-        background-repeat: no-repeat;
-        background-size:cover;
-        
-    }
-    .navbar{
-        position:sticky;
-        top: 5px;
-        background-color: rgb(17,52,72);
-        border:1px solid orange;
-        display: flex;
-        height:50px;
-        justify-content:space-between;
-        color: aliceblue;
-    }
-
-    
-    .nav-logo-div{
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        border: 2px solid white;
-        margin-left:80px;
-    }
-    .nav-logo{
-        height:80%;
-        width:80%;
-        
-    }
-    .nav-items{
-        padding-right: 2%;
-        width:50%;
-        border:1px solid rgb(235, 29, 29);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight:520;
-        
-    }
-    .nav-item{
-        margin-left:auto;
-        margin-right:auto;
-
-        border:1px solid rgb(11, 36, 11);
-    }
-    .flogo{
-        text-align: center;
-        font-weight:600;
-        font-size:20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        background-image: url("./imageFolder/hexagon-green.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 30px;
-        width: 30px;
-    }
-
-    .tlogo{
-        margin-top: 5px;
-        height:15px;
-        width:15px;
-    }
-    
-    .main-heading{
-        color: aliceblue;
-        margin-top:20%;
-        margin-bottom: 30%;
-        border: 1px solid rgb(92, 235, 26);
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .heading-font{
-        font-size:56px;
-        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-    
-</style>
 <body>
 
     <!-- main heading container -->
@@ -111,7 +20,7 @@
 
                 <div class="nav-items">
                     <span class="nav-item">HOME</span>
-                    <span class="nav-item">IMTRO</span>
+                    <span class="nav-item">INTRO</span>
                     <span class="nav-item">SERVICES</span>
                     <span class="nav-item">CALL ME</span>
                     <span class="nav-item">PROJECTS</span>
@@ -124,16 +33,43 @@
 
             </div>
             <!-- navbar  end-->
+            <!-- main heading container -->
             <div class="main-heading">
                     <h1 class="heading-font">BUSINESS TEMPLATE</h1><br>
-                    <p>Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics</p>
-                    <button>DISCOVER</button>
+                    <p class="heading-decription">Aria is a top consultancy company specializing in business growth using  online marketing and conversion optimization tactics</p>
+                    
+                    <button class="heading-button">DISCOVER</button>
+            </div>
+             <!-- main heading container end -->
+    </div>
+<!-- main heading container end -->
+<!--  INTRO Container -->
+    <div class="main-intro">
+
+        <div class="intro-dec-img">
+
+            <div class="intro">
+                <p>INTRO</p>
+                <h1>We Offer Some Of The Best Business Growth Services In Town</h1>
+                <p>Launching a new company or developing the market position of an existing one can be quite an overwhelming processs at times.</p>
+                <p>"Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting and growing companies."</p>
+                <p>Louise Donovan - CEO</p>
             </div>
 
+            <div class="img">
+                    <img src="" alt="">
+            </div>
+        </div>
+      
 
-    </div>
+        <div class="subIntro">
+            <span>
+                <img src="" alt="">
+                <h2>Environment Analysis</h2>
+                <p>The starting point of any success story is knowing your current position in the business environment</p>
+            </span>
+        </div>
 
-<!-- main heading container end -->
-
+    </div>                
 </body>
 </html>
