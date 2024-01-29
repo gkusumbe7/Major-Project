@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 html{
     scroll-behavior: smooth;
 }
-/* nav --------  */
+/* nav --------nav  */
+
 .nav{
     height: 8vh;
     width: 100%;
@@ -53,6 +55,8 @@ html{
     margin:0 6px;
     color: white;
 }
+
+
 .nav_hexagon{
     height: 30px;
     width: 30px;
